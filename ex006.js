@@ -1,3 +1,7 @@
+// Realizar uma contagem de 30 até 1 destacando os número divisíveis por 4
+// O contador for é a melhor escolha para esse exercicio
+
+
 console.log("For");
 for (contadorFor = 30; contadorFor >= 1; contadorFor--) {
     if (contadorFor % 4 == 0) {

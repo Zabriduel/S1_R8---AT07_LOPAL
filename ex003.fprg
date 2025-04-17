@@ -4,14 +4,17 @@
         <attribute name="name" value="ex003"/>
         <attribute name="authors" value="DES-MH"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-16 09:57:24 "/>
+        <attribute name="saved" value="2025-04-17 09:46:24 "/>
         <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NToyMSAiOzI2ODA="/>
         <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NToyMyAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyMzoxNyAiO2V4MDAyLmZwcmc7NjQzMg=="/>
-        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NzoyNCAiOzE7Mjc5Mw=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0NjoyMSAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxMiAiO2V4MDA2LmZwcmc7NjQyNA=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0NjoyNCAiOzM7Mjc5NA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="// Realizar uma contagem 0 a 30 de 3 em 3"/>
+            <comment text="O contador for &#233; a melhor escolha para esse exercicio&#13;&#10;"/>
             <declare name="contadorFor, contadorWhile, contadorDo" type="Integer" array="False" size=""/>
             <output expression="&quot;Contador for&quot;" newline="True"/>
             <for variable="contadorFor" start="0" end="30" direction="inc" step="3">

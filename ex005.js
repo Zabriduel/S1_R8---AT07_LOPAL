@@ -1,6 +1,9 @@
+// Realizar uma contagem até o valor positivo digitado
+// O contador while é o melhor para esse exercicio
+
 let numero = -1;
 while(numero < 0){
-    numero = parseInt(prompt("Digite um número"));
+    numero = parseInt(prompt("Digite um número positivo"));
     while(isNaN(numero)){
         alert("O valor digitado não é  um número tente novamente");
         numero = parseInt(prompt("Digite um número"));

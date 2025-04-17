@@ -4,14 +4,16 @@
         <attribute name="name" value="ex006"/>
         <attribute name="authors" value="DES-MH"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-16 11:00:38 "/>
+        <attribute name="saved" value="2025-04-17 09:24:28 "/>
         <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxMiAiOzI2Njk="/>
         <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxNCAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyNTozMCAiO2V4MDA1LmZwcmc7NjQyMQ=="/>
-        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMTowMDozOCAiOzE7Mjc3OQ=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOToyNDoyOCAiOzI7Mjc5Mw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="Realizar uma contagem de 30 at&#233; 1 destacando os n&#250;mero divis&#237;veis por 4"/>
+            <comment text="O contador for &#233; a melhor escolha para esse exercicio&#13;&#10;"/>
             <declare name="contadorFor, contadorWhile, ContadorDo" type="Integer" array="False" size=""/>
             <for variable="contadorFor" start="30" end="1" direction="dec" step="1">
                 <if expression="contadorFor%4 == 0">

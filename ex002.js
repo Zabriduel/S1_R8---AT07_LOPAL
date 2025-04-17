@@ -1,3 +1,5 @@
+// Realizar um contagem de 10 até 1
+// O contador for é a melhor escolha para esse exercicio
 for (contador = 10; contador >= 1; contador--) {
     console.log(`Numero: ${contador}`);
 }

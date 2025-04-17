@@ -1,6 +1,31 @@
-let valorInicial = parseInt(prompt("Digite o valor inicial: "));
-let valorFinal = parseInt(prompt("Digite o valor Final: "));
-let valorContagem = parseInt(prompt("Digite o valor de contagem: "));
+// Realizar uma contagem de com base nos valores digitados Inicial, Final, Incremento
+// O contador while é a melhor escolha para esse exercicio
+
+let valorInicial;
+let valorFinal;
+let valorContagem;
+
+
+valorInicial = parseInt(prompt("Digite o valor inicial: "));
+while (isNaN(valorInicial)) {
+    alert("O valor digitado não é um número")
+    valorInicial = parseInt(prompt("Digite o valor inicial: "));
+}
+
+valorFinal = parseInt(prompt("Digite o valor Final: "));
+while (isNaN(valorFinal)) {
+    alert("O valor digitado não é um número")
+    valorFinal = parseInt(prompt("Digite o valor Final: "));
+}
+valorContagem = parseInt(prompt("Digite o valor de contagem: "));
+while (isNaN(valorContagem)) {
+    alert("O valor digitado não é um número")
+    valorContagem = parseInt(prompt("Digite o valor de contagem: "));
+
+}
+
+
+
 
 //Verificando se é maior ou menor
 if (valorInicial < valorFinal) {

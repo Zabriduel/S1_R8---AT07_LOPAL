@@ -1,3 +1,6 @@
+// Realizar um contagem de 6 até 12
+// O contador for é a melhor escolha para esse exercicio
+
 console.log("For");
 
 for (contador = 6; contador <= 12; contador++) {

@@ -4,14 +4,16 @@
         <attribute name="name" value="ex007"/>
         <attribute name="authors" value="DES-MH"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-16 11:24:16 "/>
+        <attribute name="saved" value="2025-04-17 09:45:16 "/>
         <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToxNjowNCAiOzI2NzE="/>
         <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToxNjozMCAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyMzoxNyAiO2V4MDAyLmZwcmc7NjQyMA=="/>
-        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToyNDoxNiAiOzE7Mjc4MQ=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0NToxNiAiOzM7Mjc5NA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="Realizar uma contagem de com base nos valores digitados Inicial, Final, Incremento"/>
+            <comment text="O contador while &#233; a melhor escolha para esse exercicio"/>
             <declare name="contadorFor, contadorWhile, contadorDo, valorInicial, valorFinal, valorContagem" type="Integer" array="False" size=""/>
             <output expression="&quot;Digite o valor inicial&quot;" newline="True"/>
             <input variable="valorInicial"/>

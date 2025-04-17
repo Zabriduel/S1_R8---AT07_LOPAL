@@ -1,3 +1,6 @@
+// Realizar uma contagem 0 a 30 de 3 em 3
+// O contador for é a melhor escolha para esse exercicio
+
 console.log("For");
 for (contador = 0; contador <= 30; contador += 3) {
     console.log(`Numero: ${contador}`);

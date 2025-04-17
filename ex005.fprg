@@ -4,13 +4,15 @@
         <attribute name="name" value="ex005"/>
         <attribute name="authors" value="DES-MH"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-16 09:45:17 "/>
+        <attribute name="saved" value="2025-04-17 09:46:47 "/>
         <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyNTozMCAiOzI2Nzc="/>
-        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo0NToxNiAiOzE7Mjc5MQ=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0Njo0NyAiOzM7Mjc5OQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="Realizar uma contagem at&#233; o valor positivo digitado"/>
+            <comment text="O contador while &#233; o melhor escolha para esse exercicio"/>
             <declare name="contador, numero, contadorWhile, ContadorDo" type="Integer" array="False" size=""/>
             <output expression="&quot;Digite um valor: &quot;" newline="True"/>
             <input variable="numero"/>

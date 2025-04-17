@@ -4,13 +4,16 @@
         <attribute name="name" value="ex001"/>
         <attribute name="authors" value="DES-MH"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-16 09:53:08 "/>
+        <attribute name="saved" value="2025-04-17 09:46:07 "/>
         <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToxMDo1NyAiOzI2ODA="/>
-        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1MzowOCAiOzQ7Mjc5NA=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0NjowNiAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxMiAiO2V4MDA2LmZwcmc7NjQyNw=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE3OyIwOTo0NjowNyAiOzY7Mjc5OA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="Realizar um contagem de 6 at&#233; 12"/>
+            <comment text="O contador for &#233; a melhor escolha para esse exercicio&#13;&#10;"/>
             <declare name="contador, contadorWhile, contadorDo" type="Integer" array="False" size=""/>
             <for variable="contador" start="6" end="12" direction="inc" step="1">
                 <output expression="&quot;Numero: &quot; &amp;contador" newline="True"/>
