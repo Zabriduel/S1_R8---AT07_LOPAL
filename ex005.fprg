@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex005"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 09:45:17 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyNTozMCAiOzI2Nzc="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo0NToxNiAiOzE7Mjc5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador, numero, contadorWhile, ContadorDo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um valor: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="contador" start="1" end="numero" direction="inc" step="1">
+                <output expression="&quot;Numero: &quot; &amp;contador" newline="True"/>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <assign variable="contadorWhile" expression="1"/>
+            <output expression="&quot;Contador While&quot;" newline="True"/>
+            <while expression="contadorWhile &lt;= numero">
+                <output expression="&quot;Numero: &quot; &amp;contadorWhile" newline="True"/>
+                <assign variable="contadorWhile" expression="contadorWhile + 1"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Do While&quot;" newline="True"/>
+            <assign variable="contadorDo" expression="1"/>
+            <do expression="contadorDo &lt;= numero">
+                <output expression="&quot;Numero: &quot; &amp;contadorDo" newline="True"/>
+                <assign variable="contadorDo" expression="contadorDo + 1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex003"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 09:57:24 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NToyMSAiOzI2ODA="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NToyMyAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyMzoxNyAiO2V4MDAyLmZwcmc7NjQzMg=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1NzoyNCAiOzE7Mjc5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contadorFor, contadorWhile, contadorDo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Contador for&quot;" newline="True"/>
+            <for variable="contadorFor" start="0" end="30" direction="inc" step="3">
+                <output expression="&quot;Numero: &quot; &amp;contadorFor" newline="True"/>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Contador While&quot;" newline="True"/>
+            <assign variable="contadorWhile" expression="0"/>
+            <while expression="contadorWhile &lt;= 30">
+                <output expression="&quot;Numero: &quot; &amp;contadorWhile" newline="True"/>
+                <assign variable="contadorWhile" expression="contadorWhile + 3"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <assign variable="contadorDo" expression="0"/>
+            <do expression="contadorDo &lt;= 30">
+                <output expression="&quot;Numero: &quot; &amp;contadorDo" newline="True"/>
+                <assign variable="contadorDo" expression="contadorDo + 3"/>
+            </do>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

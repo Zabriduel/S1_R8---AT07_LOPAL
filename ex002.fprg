@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex002"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 09:53:40 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyMzoxNyAiOzI2ODA="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1MDoyNCAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToxMDo1NyAiO2V4MDAxLmZwcmc7NjQyNw=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOTo1Mzo0MCAiOzI7Mjc4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contadorFor, contadorWhile, contadorDo" type="Integer" array="False" size=""/>
+            <for variable="contadorFor" start="10" end="1" direction="dec" step="1">
+                <output expression="&quot;Numero: &quot; &amp;contadorFor" newline="True"/>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Contador While&quot;" newline="True"/>
+            <assign variable="contadorWhile" expression="10"/>
+            <while expression="contadorWhile &gt;= 1">
+                <output expression="&quot;Numero: &quot; &amp;contadorWhile" newline="True"/>
+                <assign variable="contadorWhile" expression="contadorWhile - 1"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <assign variable="contadorDo" expression="10"/>
+            <do expression="contadorDo &gt;= 1">
+                <output expression="&quot;Numero: &quot; &amp;contadorDo" newline="True"/>
+                <assign variable="contadorDo" expression="contadorDo - 1"/>
+            </do>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

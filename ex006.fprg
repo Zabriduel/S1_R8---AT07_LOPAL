@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex006"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 11:00:38 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxMiAiOzI2Njk="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMDozNDoxNCAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyNTozMCAiO2V4MDA1LmZwcmc7NjQyMQ=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMTowMDozOCAiOzE7Mjc3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contadorFor, contadorWhile, ContadorDo" type="Integer" array="False" size=""/>
+            <for variable="contadorFor" start="30" end="1" direction="dec" step="1">
+                <if expression="contadorFor%4 == 0">
+                    <then>
+                        <output expression="&quot;Numero: [&quot;&amp;contadorFor&amp;&quot;]&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Numero: &quot;&amp;contadorFor" newline="True"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <assign variable="contadorWhile" expression="30"/>
+            <output expression="&quot;Contador While&quot;" newline="True"/>
+            <while expression="contadorWhile &gt;= 1">
+                <if expression="contadorWhile%4 == 0">
+                    <then>
+                        <output expression="&quot;Numero: [&quot;&amp;contadorWhile&amp;&quot;]&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Numero: &quot;&amp;contadorWhile" newline="True"/>
+                    </else>
+                </if>
+                <assign variable="contadorWhile" expression="contadorWhile - 1"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Do While&quot;" newline="True"/>
+            <assign variable="contadorDo" expression="30"/>
+            <do expression="contadorDo &gt;= 1">
+                <if expression="contadorDo%4 == 0">
+                    <then>
+                        <output expression="&quot;Numero: [&quot;&amp;contadorDo&amp;&quot;]&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Numero: &quot;&amp;contadorDo" newline="True"/>
+                    </else>
+                </if>
+                <assign variable="contadorDo" expression="contadorDo - 1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

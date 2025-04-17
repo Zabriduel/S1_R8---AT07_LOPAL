@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex007"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-16 11:24:16 "/>
+        <attribute name="created" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToxNjowNCAiOzI2NzE="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToxNjozMCAiOzE7REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIwOToyMzoxNyAiO2V4MDAyLmZwcmc7NjQyMA=="/>
+        <attribute name="edited" value="REVTLU1IO0RFU0tUT1AtTVZCODdPQzsyMDI1LTA0LTE2OyIxMToyNDoxNiAiOzE7Mjc4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contadorFor, contadorWhile, contadorDo, valorInicial, valorFinal, valorContagem" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor inicial&quot;" newline="True"/>
+            <input variable="valorInicial"/>
+            <output expression="&quot;Digite o valor final&quot;" newline="True"/>
+            <input variable="valorFinal"/>
+            <output expression="&quot;Digite o valor de contagem&quot;" newline="True"/>
+            <input variable="valorContagem"/>
+            <if expression="valorInicial &lt; valorFinal">
+                <then>
+                    <for variable="contadorFor" start="valorInicial" end="valorFinal" direction="inc" step="valorContagem">
+                        <output expression="&quot;Numero: &quot; &amp;contadorFor" newline="True"/>
+                    </for>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                    <output expression="&quot;Contador While&quot;" newline="True"/>
+                    <assign variable="contadorWhile" expression="valorInicial"/>
+                    <while expression="contadorWhile &lt;= valorFinal">
+                        <output expression="&quot;Numero: &quot; &amp;contadorWhile" newline="True"/>
+                        <assign variable="contadorWhile" expression="contadorWhile + valorContagem"/>
+                    </while>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                    <assign variable="contadorDo" expression="valorInicial"/>
+                    <do expression="contadorDo &lt;= valorFinal">
+                        <output expression="&quot;Numero: &quot; &amp;contadorDo" newline="True"/>
+                        <assign variable="contadorDo" expression="contadorDo + valorContagem"/>
+                    </do>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                </then>
+                <else>
+                    <for variable="contadorFor" start="valorInicial" end="valorFinal" direction="dec" step="valorContagem">
+                        <output expression="&quot;Numero: &quot; &amp;contadorFor" newline="True"/>
+                    </for>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                    <output expression="&quot;Contador While&quot;" newline="True"/>
+                    <assign variable="contadorWhile" expression="valorInicial"/>
+                    <while expression="contadorWhile &gt;= valorFinal">
+                        <output expression="&quot;Numero: &quot; &amp;contadorWhile" newline="True"/>
+                        <assign variable="contadorWhile" expression="contadorWhile - valorContagem"/>
+                    </while>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                    <assign variable="contadorDo" expression="valorInicial"/>
+                    <do expression="contadorDo &gt;= valorFinal">
+                        <output expression="&quot;Numero: &quot; &amp;contadorDo" newline="True"/>
+                        <assign variable="contadorDo" expression="contadorDo - valorContagem"/>
+                    </do>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
